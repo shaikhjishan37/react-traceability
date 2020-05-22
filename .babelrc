@@ -1,0 +1,9 @@
+{
+    /* For Transpile use "es2015", "react" and comment other presets */
+    /* For Jest use "@babel/preset-env", "@babel/preset-react" and comment other presets */
+    /* Do not commit this file in git as we will run Jest in on Commit pipeline */
+    "presets": [ /* "es2015", "react",*/ "@babel/preset-env", "@babel/preset-react" ],
+    "plugins": [
+        ["transform-object-rest-spread", { "useBuiltIns": true }]
+    ]
+}
